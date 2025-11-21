@@ -186,7 +186,7 @@ Below are the full, deep-dive insights extracted from the analysis:
 
 ### 🖼 Screenshot 5 -- Average Item Price by User Title
 
-![Dataset Preview]([visuals/Insights-7.png](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/2c88df290599aead0ef3860a2771cc5e443fa28a/German%20E-Commerce%20Customer%20Behaviour%20Analysis/visuals/Insights-7.jpg))
+![Dataset Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/2218946ac4c37bb88064c7cc936f840bf7bd2cc1/German%20E-Commerce%20Customer%20Behaviour%20Analysis/visuals/Insights-7.jpg)
 
 ### 🖼 Screenshot 6 -- Monthly Registration - 2015 vs 2016
 
