@@ -180,9 +180,10 @@ Below are the full, deep-dive insights extracted from the analysis:
 
 ## 📷 Visualizations (Screenshots to Be Added)
 
-### 🖼 Screenshot 1 -- Dataset Preview
+### 🖼 Screenshot 1 -- Daily Order With 7-Day Rolling Mean
 
-*(Upload inside /visuals/ and link here)*
+![Dataset Preview](visuals/Insights-1.png)
+
 
 ### 🖼 Screenshot 2 -- Customer Demographics
 
