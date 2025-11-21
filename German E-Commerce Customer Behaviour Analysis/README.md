@@ -137,10 +137,10 @@ Below are the full, deep-dive insights extracted from the analysis:
 
 ## 📁 Project Structure
 
-    ├── data/                # Source dataset (not included here)
-    ├── visuals/             # Exploratory data analysis screenshots
-    ├── notebooks/           # Jupyter notebooks for analysis
-    ├── README.md            # Project documentation
+    ├── Dataset/                # Source dataset (not included here)
+    ├── visuals/                # Exploratory data analysis screenshots
+    ├── Notebooks/              # Jupyter notebooks for analysis
+    ├── README.md               # Project documentation
 
 
 ------------------------------------------------------------------------
