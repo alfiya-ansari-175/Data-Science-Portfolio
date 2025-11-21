@@ -3,7 +3,7 @@
 Welcome to my **Data Science Portfolio** --- a collection of end-to-end
 projects showcasing my skills in Data Analysis, Machine Learning, Deep
 Learning, NLP, SQL, NoSQL, Statistics and Testing, Big Data, AWS Tools, 
-Large Language Models, and real-world business case studies.\
+Large Language Models, and real-world business case studies.
 This repository demonstrates my ability to work with complex datasets,
 extract insights, build predictive models, and communicate findings
 through clear visualizations and reporting.
