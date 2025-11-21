@@ -1,7 +1,5 @@
 # German E-Commerce Customer Behaviour Analysis
 
-**Author: Alfiya Ansari**
-
 This repository contains a comprehensive analysis of German e-commerce
 customer behaviour based on a 100,000-row dataset featuring customer
 demographics, product information, transaction details, returns, and
@@ -137,23 +135,13 @@ Below are the full, deep-dive insights extracted from the analysis:
 
 ------------------------------------------------------------------------
 
-### **10. Weak Correlations Suggest Complex, Non-Linear Customer Behaviour**
-
--   Most variables exhibit near-zero correlation.
--   Only meaningful relationship: item ID vs. price (\~0.40
-    correlation), likely due to product categorization.
--   **Implication:** Tree-based ML models (XGBoost, Random Forests,
-    LightGBM) will outperform linear models.
-
-------------------------------------------------------------------------
-
 ## 📁 Project Structure
 
     ├── data/                # Source dataset (not included here)
     ├── visuals/             # Exploratory data analysis screenshots
     ├── notebooks/           # Jupyter notebooks for analysis
     ├── README.md            # Project documentation
-    └── reports/             # PDF reports (optional)
+
 
 ------------------------------------------------------------------------
 
@@ -184,22 +172,26 @@ Below are the full, deep-dive insights extracted from the analysis:
 
 ![Dataset Preview](visuals/Insights-1.png)
 
+### 🖼 Screenshot 2 -- Orders Per State
 
-### 🖼 Screenshot 2 -- Customer Demographics
+![Dataset Preview](visuals/Insights-2.png)
 
-*(Upload inside /visuals/ and link here)*
+### 🖼 Screenshot 3 --Item Size Distribution
 
-### 🖼 Screenshot 3 -- Return Behaviour Visuals
+![Dataset Preview](visuals/Insights-4.png)
 
-*(Upload inside /visuals/ and link here)*
+### 🖼 Screenshot 4 -- Average Item Price by User Title
 
-### 🖼 Screenshot 4 -- Geographic Analysis
+![Dataset Preview](visuals/Insights-7.png)
 
-*(Upload inside /visuals/ and link here)*
+### 🖼 Screenshot 5 -- User Count by State
 
-### 🖼 Screenshot 5 -- Time-Based Trends
+![Dataset Preview](visuals/Insights-8.png)
 
-*(Upload inside /visuals/ and link here)*
+### 🖼 Screenshot 6 -- Monthly Registration - 2015 vs 2016
+
+![Dataset Preview](visuals/Insights-9.png)
+
 
 ------------------------------------------------------------------------
 
