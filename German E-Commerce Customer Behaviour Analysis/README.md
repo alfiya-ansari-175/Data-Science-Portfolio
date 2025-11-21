@@ -190,7 +190,7 @@ Below are the full, deep-dive insights extracted from the analysis:
 
 ### 🖼 Screenshot 6 -- Monthly Registration - 2015 vs 2016
 
-![Dataset Preview](visuals/Insights-9.png)
+![Dataset Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/c95536df476cdd89a17a192c675b5f7bbd786bfc/German%20E-Commerce%20Customer%20Behaviour%20Analysis/visuals/Insights-9.jpg)
 
 
 ------------------------------------------------------------------------
