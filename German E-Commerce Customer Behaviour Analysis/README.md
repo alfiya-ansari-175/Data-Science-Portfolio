@@ -170,23 +170,23 @@ Below are the full, deep-dive insights extracted from the analysis:
 
 ### 🖼 Screenshot 1 -- Daily Order With 7-Day Rolling Mean
 
-![Dataset Preview](visuals/Insights-1.png)
+![Dataset Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/2c88df290599aead0ef3860a2771cc5e443fa28a/German%20E-Commerce%20Customer%20Behaviour%20Analysis/visuals/Insights-1.png)
 
-### 🖼 Screenshot 2 -- Orders Per State
+### 🖼 Screenshot 2 --Item Size Distribution
 
-![Dataset Preview](visuals/Insights-2.png)
+![Dataset Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/2c88df290599aead0ef3860a2771cc5e443fa28a/German%20E-Commerce%20Customer%20Behaviour%20Analysis/visuals/Insights-4.jpg)
 
-### 🖼 Screenshot 3 --Item Size Distribution
+### 🖼 Screenshot 3 -- Orders Per State
 
-![Dataset Preview](visuals/Insights-4.png)
+![Dataset Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/2c88df290599aead0ef3860a2771cc5e443fa28a/German%20E-Commerce%20Customer%20Behaviour%20Analysis/visuals/Insights-2.jpg)
 
-### 🖼 Screenshot 4 -- Average Item Price by User Title
+### 🖼 Screenshot 4 -- User Count by State
 
-![Dataset Preview](visuals/Insights-7.png)
+![Dataset Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/2c88df290599aead0ef3860a2771cc5e443fa28a/German%20E-Commerce%20Customer%20Behaviour%20Analysis/visuals/Insights-8.jpg)
 
-### 🖼 Screenshot 5 -- User Count by State
+### 🖼 Screenshot 5 -- Average Item Price by User Title
 
-![Dataset Preview](visuals/Insights-8.png)
+![Dataset Preview]([visuals/Insights-7.png](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/2c88df290599aead0ef3860a2771cc5e443fa28a/German%20E-Commerce%20Customer%20Behaviour%20Analysis/visuals/Insights-7.jpg))
 
 ### 🖼 Screenshot 6 -- Monthly Registration - 2015 vs 2016
 
