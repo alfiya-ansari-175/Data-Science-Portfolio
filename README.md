@@ -2,7 +2,8 @@
 
 Welcome to my **Data Science Portfolio** --- a collection of end-to-end
 projects showcasing my skills in Data Analysis, Machine Learning, Deep
-Learning, NLP, SQL/PySpark, and real-world business case studies.\
+Learning, NLP, SQL, NoSQL, Statistics and Testing, Big Data, AWS Tools, 
+Large Language Models, and real-world business case studies.\
 This repository demonstrates my ability to work with complex datasets,
 extract insights, build predictive models, and communicate findings
 through clear visualizations and reporting.
@@ -26,39 +27,59 @@ Every project includes a detailed notebook and supporting documentation.
 
 ## 🧠 Skills Demonstrated
 
-### Data Analysis & EDA
+### Data Analysis using Python, Tableau and PowerBI
 
 -   Identifying patterns, trends, and anomalies\
--   Visual storytelling using Matplotlib & Seaborn
+-   Visualizing using Matplotlib & Seaborn
+-   Vizualize and Story telling Tableau and PowerBI
 
 ### Machine Learning
 
 -   Classification, Regression, Clustering\
 -   Model tuning (GridSearchCV, RandomizedSearchCV)\
--   Gradient boosting models (XGBoost, LightGBM)
+-   Machine Learning Algorithms
 
 ### Deep Learning
 
 -   Neural networks for image & text tasks\
--   TensorFlow / PyTorch workflows
+-   TensorFlow workflows
 
 ### NLP
 
 -   Text cleaning & preprocessing\
 -   Sentiment analysis, vectorization, embeddings
 
-### Big Data (SQL & PySpark)
+### SQL & NoSQL
 
 -   Data wrangling, joins, aggregations\
--   Working with distributed datasets
+-   Working with distributed datasets  
+
+
+### Big Data & PySpark
+
+-   Doing Projects using Big Data Frameworks like Hadoop\
+-   MapReduce, Hive, PySpark
+
+### AWS
+
+-   Storing, Analysing, Develop and Deployment of Data Scienc Projects
+
+### Large Language Models 
+
+-   Doing LLM Related Projects
+
 
 ## 🛠️ Tools & Technologies
 
--   **Python**, **NumPy**, **Pandas**
--   **Scikit-learn**, **XGBoost**, **LightGBM**
--   **TensorFlow**, **PyTorch**
--   **Matplotlib**, **Seaborn**
--   **SQL**, **PySpark**
+-   **Python**, **NumPy**, **Pandas**, **Matplotlib**, **Seaborn**
+-   **Plotly**, **Scipy**
+-   **MySQL**
+-   **MongoDB**
+-   **Tableau**,**PowerBI**
+-   **Scikit-learn**,
+-   **TensorFlow**,
+-   **NLP**,
+-   **LLM**,
 -   **Jupyter Notebook**, **Git**, **GitHub**
 
 ## 📁 Project Structure
