@@ -132,6 +132,5 @@ The dashboard supports strategic workforce planning by enabling insights such as
 ---
 
 
-## Author
-**Alfiya Ansari**  
+**Created by: *Alfiya Ansari***
 
