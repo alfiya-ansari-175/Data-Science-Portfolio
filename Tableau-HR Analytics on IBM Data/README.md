@@ -1,8 +1,8 @@
-# HR Analytics Dashboard – Project README
+# IBM HR Analytics Dashboard – Project README
 
 ## 📊 Overview
 
-This repository contains a **Tableau-based HR Analytics Dashboard** built using the well-known **IBM HR Employee Attrition Dataset**. The dashboard provides deep insights into employee demographics, experience, compensation, workforce distribution, and organizational structure. It is designed to support HR teams and decision-makers with clear, visual, and actionable analytics.
+This repository contains a **Tableau-based IBM HR Analytics Dashboard** built using the well-known **IBM HR Employee Attrition Dataset**. The dashboard provides deep insights into employee demographics, experience, compensation, workforce distribution, and organizational structure. It is designed to support HR teams and decision-makers with clear, visual, and actionable analytics.
 
 ---
 
@@ -86,7 +86,7 @@ Common patterns include:
 
 ## 📌 4. Role & Department-Level Insights
 
-### 🔹 Total Employees
+### 🔹 Total Employees and job roles
 
 Visuals outline:
 
@@ -118,8 +118,7 @@ The dashboard supports strategic workforce planning by enabling insights such as
 
 ## 📁 Files Included
 
-* `Book2.twb` – Tableau workbook containing all dashboards and worksheets  
-* Executive Summary PDF (optional)  
+* `IBM-HR-analytics.twb` – Tableau workbook containing all dashboards and worksheets  
 * `README.md` (this file)  
 
 ---
@@ -132,17 +131,7 @@ The dashboard supports strategic workforce planning by enabling insights such as
 
 ---
 
-## 🏆 Project Value
 
-This HR Analytics Dashboard demonstrates:
+## Author
+**Alfiya Ansari**  
 
-* Strong Tableau visualization skills  
-* Ability to perform meaningful HR data analysis  
-* Clear communication of insights for business decision-making  
-* Professional-quality analytics suitable for portfolios or HR departments  
-
----
-
-## 📬 Contact
-
-If you'd like help improving the dashboard or generating a portfolio version, feel free to reach out!
