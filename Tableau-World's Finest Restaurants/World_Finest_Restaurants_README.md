@@ -1,133 +1,131 @@
-# 🌍 World's Finest Restaurants -- Global Insights Dashboard
+# 🌍 World’s Finest Restaurants – Global Insights Dashboard  
+### *A Tableau Project Exploring Global Fine-Dining Trends*
 
-![Tableau](https://img.shields.io/badge/Tool-Tableau-blue)\
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)\
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+This project delivers a comprehensive analysis of **50 of the world’s finest restaurants**, exploring global trends in pricing, ratings, cuisine types, chef specialties, and geographic patterns.  
+Built with **Tableau**, this dashboard offers interactive insights into what makes elite culinary experiences stand out around the world.
 
-A comprehensive Tableau project analyzing the world's top fine-dining
-restaurants---uncovering pricing trends, cuisine culture, chef
-excellence, ratings, and regional patterns.
+---
 
-------------------------------------------------------------------------
+## 🖼️ Dashboard Screenshot
 
-## 📸 Dashboard Screenshot
+Below is a preview of the main Tableau dashboard:
 
-![Dashboard Screenshot](images/dashboard_screenshot.png)
+![top_restaurant]([images/dashboard_screenshot.png](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/ea7e3b365647da614d93046d624f5daedeca620f/Tableau-World's%20Finest%20Restaurants/images/Dashboard-img.png))
 
-------------------------------------------------------------------------
+---
 
-## 📘 Overview
+## 📊 Project Overview
 
-This project uses Tableau to explore **50 of the finest restaurants
-worldwide**. The dashboard highlights patterns across cuisine types,
-average pricing, Michelin categories, chef signatures, establishment
-years, and continent-level statistics.
+The Global Insights Dashboard visualizes key variables including:
 
-------------------------------------------------------------------------
+- **Pricing and cost patterns**  
+- **Star ratings and excellence levels**  
+- **Operating years and historical trends**  
+- **Cuisine types and cultural contributions**  
+- **Continental and regional dining differences**  
+- **Top chefs and their signature dishes**
 
+These components come together to highlight the attributes shaping the world’s most prestigious restaurants.
+
+---
 ## ⭐ Key Insights
 
-### 💰 **1. Premium Pricing Trends**
+### 💰 1. Average Price & Premium Dining Trends
+- **Global average price:** **$281.06**  
+- **Most expensive continents:**  
+  - **Europe:** $296.6  
+  - **North America:** $297.1  
 
--   Average global restaurant price: **\$281.06**
--   Highest-priced continents:
-    -   **North America -- \$297.1**
-    -   **Europe -- \$296.6**
--   Most premium countries:
-    -   **Germany -- \$245**
-    -   **Russia -- \$220**
-    -   **Spain -- \$210**
+High-priced countries include:
+- **Germany – $245**
+- **Russia – $220**
+- **Spain – $210**
 
-------------------------------------------------------------------------
+These figures highlight the premium nature of top-tier dining worldwide.
 
-### ⭐ **2. Global Excellence in Ratings**
+---
 
--   Average global rating: **4.7**
--   Top chef signature dishes:
-    -   **Alain Passard -- Heirloom Tomatoes (4.9)**
-    -   **Massimo Bottura -- Five Ages of Parmigiano (4.9)**
-    -   **Julien Royer -- Hokkaido Sea Urchin (4.9)**
-    -   **Thomas Keller -- Oysters and Pearls (4.9)**
+### ⭐ 2. Ratings & Restaurant Excellence
+- **Average global rating:** **4.7**  
+- Top-rated signature dishes crafted by world-class chefs:
 
-------------------------------------------------------------------------
+  - **Alain Passard – Heirloom Tomatoes (4.9)**
+  - **Massimo Bottura – Five Ages of Parmigiano (4.9)**
+  - **Julien Royer – Hokkaido Sea Urchin (4.9)**
+  - **Thomas Keller – Oysters and Pearls (4.9)**  
 
-### 🕰️ **3. Restaurant Establishment Patterns**
+These dishes significantly contribute to the restaurants’ high ratings and global prestige.
 
--   Restaurants have been operating **23.2 years on average**
--   Major fine-dining growth occurred from **1990 to 2010**
--   Both classic and modern restaurants achieve strong global
-    recognition
+---
 
-------------------------------------------------------------------------
+### 🕰️ 3. Restaurant Establishment Trends
+- **Average years in operation:** **23.2 years**  
+- Most notable expansion in fine dining occurred between **1990–2010**, marking a pivotal era of innovation and global interest.
+- Both **oldest exhibitors (1970s)** and **newer establishments (post-2010)** show similarly impressive performance and longevity.
 
-### ⏳ **4. Growth of Fine-Dining Restaurants Over Time**
+---
 
-The *Established Year vs Total Restaurants* line chart reveals: - Steady
-increase from **1970 to 1990** - Strongest growth between
-**1995--2010** - Stabilization after 2010 - Early & late years (1970 &
-2018) show \~1--2 restaurants due to dataset boundaries
+### 🍽️ 4. Cuisine Type Distribution
+Number of restaurants per cuisine category:
 
-------------------------------------------------------------------------
+| Cuisine Type | Count |
+|--------------|-------|
+| **New Nordic** | 435 |
+| French | 317.5 |
+| Contemporary American | 316 |
+| Italian | 300 |
+| Mediterranean | 290 |
+| Asian Fusion | 265 |
 
-### 🍽️ **5. Cuisine Type Dominance**
+Emerging cuisines include **Contemporary Mexican** and **British Contemporary**, reflecting evolving global tastes.
 
-Top cuisine types (by number of restaurants): - **New Nordic -- 435** -
-**French -- 317.5** - **Contemporary American -- 316** - **Italian --
-300** - **Mediterranean -- 290**
+---
 
-------------------------------------------------------------------------
+### 🌟 5. Star Category Insights
+Seating capacity distribution by star rating:
 
-### 🌟 **6. Michelin Star Seating Capacity Distribution**
+- **Three Stars:** 46.90%  
+- **Two Stars:** 23.64%  
+- **No Stars:** 23.55%  
+- **One Star:** 5.91%
 
--   **Three Stars:** 46.90%
--   **Two Stars:** 23.64%
--   **No Stars:** 23.55%
--   **One Star:** 5.91%
+This suggests that **three-star restaurants** accommodate far more guests, likely due to increased demand tied to higher prestige.
 
-------------------------------------------------------------------------
+---
 
-### 🌍 **7. Continental Insights**
+### 🌍 6. Continental Pricing Trends
+- **Europe and North America** rank as the most expensive fine-dining environments.  
+- **Asia** follows closely at **$275.5**, demonstrating strong premium dining culture.  
+- **South America** maintains affordability while still offering high-quality experiences.
 
--   Europe, North America, and Asia form the **premium dining belt**
--   South America provides more affordable premium dining
+---
 
-------------------------------------------------------------------------
+### ⏳ 7. Growth of Fine-Dining Restaurants Over Time
+The dataset timeline reveals:
 
-## 📁 Repository Structure
+- Steady rise in top restaurants from the **1970s to early 2000s**  
+- **Peak growth between 1995–2010**  
+- Stabilized establishment after 2010  
+- 1970 and 2018 display fewer restaurants due to dataset boundaries rather than declining quality
 
-    ├── data/
-    │   └── world_top_restaurants_dataset.csv
-    ├── images/
-    │   └── dashboard_screenshot.png
-    ├── tableau/
-    │   └── world_fine_restaurants.twbx
-    └── README.md
+---
 
-------------------------------------------------------------------------
+## 📁 Files Included
 
-## 🛠️ Tools & Technologies
+* `Analysis_on_top_restaurants.twb` – Tableau workbook containing all dashboards and worksheets
+* `world_top_restaurants_dataset.csv` - Dataset
+* `README.md` (this file)
+* `images` - A folder contains Dashboard's screenshot
 
--   **Tableau Desktop**\
--   **CSV/Excel Dataset**\
--   **GitHub for Version Control**
+---
 
-------------------------------------------------------------------------
+## 🚀 How to Use This Project
 
-## 🔧 Setup Instructions
+1. Download the Tableau workbook `.twb` file.  
+2. Open it in **Tableau Desktop** or **Tableau Public**.  
+3. Navigate through the dashboards to explore the project.  
 
-### 1️⃣ Clone the Repository
+---
 
-``` bash
-git clone https://github.com/yourusername/worlds-finest-restaurants.git
-```
 
-### 2️⃣ Open the Tableau Workbook
-
--   Go to `/tableau/`
--   Open the `.twbx` file
-
-### 3️⃣ Explore Dataset
-
-Located in `/data/`
-
-------------------------------------------------------------------------
+**Created by: *Alfiya Ansari***
