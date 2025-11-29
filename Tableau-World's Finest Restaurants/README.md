@@ -10,7 +10,8 @@ Built with **Tableau**, this dashboard offers interactive insights into what mak
 
 Below is a preview of the main Tableau dashboard:
 
-![top_restaurant]([images/dashboard_screenshot.png](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/ea7e3b365647da614d93046d624f5daedeca620f/Tableau-World's%20Finest%20Restaurants/images/Dashboard-img.png))
+![Dashboard Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/ea7e3b365647da614d93046d624f5daedeca620f/Tableau-World's%20Finest%20Restaurants/images/Dashboard-img.png?raw=true)
+
 
 ---
 
