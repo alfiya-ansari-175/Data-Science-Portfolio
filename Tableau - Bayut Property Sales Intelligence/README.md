@@ -1,18 +1,15 @@
-# 🌍 World’s Finest Restaurants – Global Insights Dashboard  
-### *A Tableau Project Exploring Global Fine-Dining Trends*
+📊 Bayut Property Sales Intelligence
+Real-Estate Analytics Dashboard (Tableau) + SQL Data Cleaning
 
-This project delivers a comprehensive analysis of **50 of the world’s finest restaurants**, exploring global trends in pricing, ratings, cuisine types, chef specialties, and geographic patterns.  
-Built with **Tableau**, this dashboard offers interactive insights into what makes elite culinary experiences stand out around the world.
-
+This project analyzes residential property listings from Bayut to uncover price patterns, market behavior, and city-level differences across the UAE.
+A full data-cleaning workflow was performed using SQL, and the results were visualized in Tableau.
 ---
 
 ## 🖼️ Dashboard Screenshot
 
 Below is a preview of the main Tableau dashboard:
 
-![Dashboard Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/ea7e3b365647da614d93046d624f5daedeca620f/Tableau-World's%20Finest%20Restaurants/images/Dashboard-img.png?raw=true)
-
-
+![Dashboard Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/f839675d1b991b6845a095f1ff6c5857ee400a1a/Tableau%20-%20Bayut%20Property%20Sales%20Intelligence/Images/Dashboard.png)
 ---
 
 ## 📊 Project Overview
