@@ -164,7 +164,8 @@ Dubai is the UAE’s most premium and volatile real-estate market, while Sharjah
 # 📁 Files Included
 
 * `Bayut_Property_Sales_Intelligence.twb` – Tableau workbook
-* `Datasets` – bayut_selling_properties.csv and final_dataset.csv
+* `SQL-file.ipynb/` – A python file which contains all SQL related tasks
+* `Datasets/` – bayut_selling_properties.csv and final_dataset.csv
 * `images/` – Dashboard screenshots
 * `README.md` – (this file)
 
