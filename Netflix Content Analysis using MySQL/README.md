@@ -105,15 +105,7 @@ This project is designed as a **resume-ready data analytics project**, demonstra
 19. Missing metadata highlights **real-world data quality challenges**.  
 20. Overall trends show Netflix follows a **data-driven experimentation approach**.
 
----
-
-## 🧠 Interview-Ready Takeaways
-- Demonstrates **advanced SQL analytics** using real-world data  
-- Converts raw SQL output into **business insights**  
-- Shows understanding of **content strategy, growth, and audience targeting**  
-- Highlights experience handling **imperfect real-world datasets**  
-
----
+--
 
 ## 📁 Repository Structure
 
