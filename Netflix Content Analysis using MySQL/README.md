@@ -1,186 +1,142 @@
-# 📊 Bayut Property Sales Intelligence
+# Netflix Content Analysis using MySQL
 
-### **Real-Estate Analytics Dashboard (Tableau) + SQL/Python Data Cleaning**
+## 📌 Project Overview
+This project performs an **end-to-end exploratory and analytical study of Netflix Movies & TV Shows data** using **MySQL, SQL queries, and Python (Pandas)**. The goal is to uncover **content trends, regional patterns, genre dominance, rating distributions, and time-based insights** from Netflix’s catalog.
 
-This project analyzes residential property listings from **Bayut** to uncover price patterns, market behavior, and city-level differences across the UAE.
-A complete **data-cleaning workflow** was performed using SQL & Python, followed by in-depth **visual analytics in Tableau**.
+This project is designed as a **resume-ready data analytics project**, demonstrating:
+- SQL proficiency (aggregation, filtering, joins, subqueries, window functions)
+- Data cleaning and preprocessing
+- Business-oriented analytical thinking
+- Integration of Python with MySQL
+
+---
+## 📂 Dataset
+- **Source:** Kaggle – *Netflix Movies and TV Shows Dataset*  
+  https://www.kaggle.com/datasets/shivamb/netflix-shows  
+- **File Name:** `netflix_titles.csv`  
+- **Total Records:** ~8,800 Netflix titles  
+- **Key Columns:**  
+  - `show_id` – Unique identifier  
+  - `type` – Movie or TV Show  
+  - `title` – Name of the content  
+  - `director`, `cast` – Creative contributors  
+  - `country` – Production country  
+  - `date_added` – Date added to Netflix  
+  - `release_year` – Original release year  
+  - `rating` – Content maturity rating  
+  - `duration` – Movie runtime / TV show seasons  
+  - `listed_in` – Genres  
+  - `description` – Content summary  
 
 ---
 
-## 🖼️ Dashboard Preview
-
-![Dashboard Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/f839675d1b991b6845a095f1ff6c5857ee400a1a/Tableau%20-%20Bayut%20Property%20Sales%20Intelligence/Images/Dashboard.png)
-
----
-
-## 🧹 Data Cleaning (Python + SQL)
-
-### **Summary of the Python Code**
-
-1. **Load Dataset**
-   Reads the file `bayut_selling_properties.csv` into a pandas DataFrame.
-
-2. **Remove Rows with Missing Data**
-   Drops all rows that contain `NaN` values.
-
-3. **Drop High-Null Columns**
-   Removes columns that contained **~60% missing values**, including:
-   `purpose`, `country`, `address`, `year_of_completion`, `total_parking_spaces`,
-   `total_floors`, `total_building_area_sqft`, `elevators`, `average_rent`, `building_name`.
-
-4. **Format Price Values**
-   Converts numeric prices into comma-formatted strings—for example:
-   `1500000 → "1,500,000"`.
-
-5. **Reorder & Keep Relevant Columns**
-   Final cleaned dataset retains only:
-   `['type','beds','baths','furnishing','price_category','post_date','city','area_name','Latitude','Longitude','completion_status','price']`
+## 🛠️ Tech Stack
+- **Database:** MySQL  
+- **Languages:** SQL, Python  
+- **Libraries:** Pandas, SQLAlchemy, ipython-sql  
+- **Environment:** Jupyter Notebook  
 
 ---
 
-# 📊 Tableau Dashboard Overview
-
-The dashboard provides a full breakdown of:
-
-* Total Listings
-* Average Price
-* Price per Bedroom & Bathroom
-* Price Distribution by Property Type
-* Annual Price Trends
-* City-level Pricing Comparison
-* Bedroom & Bathroom Pricing Patterns
-* Furnished vs Unfurnished Price Differences
+## 🔄 Project Workflow
+1. Load Netflix dataset using Pandas  
+2. Perform data understanding and cleaning  
+3. Create MySQL connection  
+4. Load cleaned data into MySQL  
+5. Perform 40+ SQL analytical queries  
+6. Generate business-driven insights  
 
 ---
 
-# 🔍 Key Insights from the Dashboard
+## 🧹 Data Cleaning & Preparation (Cell-wise Insights)
 
-Below is a narrative-style summary derived from the visual analysis.
+### 1️⃣ Library Imports
+- Imported **pandas** for data handling and analysis  
+- Imported **sqlalchemy** for database connectivity  
 
----
+### 2️⃣ MySQL Connection Setup
+- Established a connection between Jupyter Notebook and MySQL using **ipython-sql**  
+- Enabled direct execution of SQL queries inside notebook cells  
 
-## **1. Market Overview**
+### 3️⃣ Dataset Loading
+- Loaded **`netflix_titles.csv`** into a Pandas DataFrame  
+- Displayed the first few rows to understand dataset structure  
 
-* **Total Listings:** ~41,000
-* **Average Property Price:** AED 3.79M
-* **Avg. Price per Bedroom:** AED 1.59M
-* **Avg. Price per Bathroom:** AED 1.16M
-* **Total Sales Value:** ~AED 156.7B
+### 4️⃣ Dataset Shape
+- Checked the number of rows and columns to assess dataset size  
 
-📌 *Insight:*
-The UAE real-estate market (especially Dubai) shows strong luxury dominance driven by villas, penthouses, and premium communities.
+### 5️⃣ Dataset Information
+- Reviewed column data types  
+- Identified null values and memory usage  
 
----
+### 6️⃣ Missing Value Analysis
+- Counted missing values in each column  
+- Observed high null counts in **director, cast, and country** columns  
 
-## **2. Bedroom Price Categories**
+### 7️⃣ Handling Missing Values
+- Replaced missing values with **'Unknown'**  
+- Ensured data consistency before loading into MySQL  
 
-* **Total bedrooms analyzed:** 90,581
-* **High price:** 50.33%
-* **Medium price:** 33.08%
-* **Average price:** 16.59%
-
-📌 *Insight:*
-Over **half** of all listings fall into the **high-price** category, reinforcing the premium-heavy nature of the market.
-
----
-
-## **3. Bathrooms & Property Readiness**
-
-Bubble-chart findings:
-
-* Ready properties cluster in the **mid-to-high price** range.
-* Off-plan villas & penthouses dominate **highest-value clusters**.
-
-📌 *Insight:*
-Premium off-plan projects drive market spikes—buyers expect higher future value.
+### 8️⃣ Date Formatting
+- Converted **date_added** into proper datetime format  
+- Extracted **year and month** for time-based analysis  
 
 ---
 
-## **4. Pricing by Property Type**
-
-| Property Type        | Avg Price (AED) |
-| -------------------- | --------------- |
-| Penthouse            | **23.46M**      |
-| Residential Floor    | 22.68M          |
-| Residential Building | 14.22M          |
-| Villa Compound       | 10.47M          |
-| Villa                | 7.93M           |
-| Residential Plot     | 5.31M           |
-| Townhouse            | 2.96M           |
-| Apartment            | 2.53M           |
-| Hotel Apartment      | 1.76M           |
-
-📌 *Insight:*
-Penthouses and full floors attract ultra-high-net-worth buyers, making them the most profitable segments.
-
----
-
-## **5. Annual Price Trend**
-
-| Year | Avg Price (AED)   |
-| ---- | ----------------- |
-| 2021 | 5.60M             |
-| 2022 | **13.60M (Peak)** |
-| 2023 | 3.75M             |
-| 2024 | 3.77M             |
-
-📌 *Insight:*
-**2022 saw an extreme price spike**, influenced by:
-
-* Post-COVID investment surge
-* Increase in foreign ownership
-* Launch of major luxury developments
-
-A return to normal pricing follows in 2023–2024.
+## 📈 Key Business Insights
+1. Netflix’s catalog is **movie-dominant**, but TV Shows show steady year-over-year growth.  
+2. Rapid catalog expansion began after **2015**, aligning with global market growth.  
+3. **2018–2020** represents Netflix’s most aggressive content expansion phase.  
+4. The **United States** is the largest contributor to Netflix content.  
+5. **India** ranks among the top contributors, driven mainly by movie production.  
+6. Rising **international content** confirms Netflix’s global expansion strategy.  
+7. **Dramas** are the most dominant genre across Movies and TV Shows.  
+8. **International Movies** highlight Netflix’s focus on localized storytelling.  
+9. **Comedies** ensure consistent mass appeal across regions.  
+10. **TV-MA** is the most common rating, indicating a strong mature-audience focus.  
+11. **TV-14** content reflects Netflix’s emphasis on teen and young-adult viewers.  
+12. Family-friendly content (TV-Y, TV-Y7) forms a **separate strategic segment**.  
+13. Most movies fall within the **90–120 minute** duration range.  
+14. Average movie duration remains stable across release years.  
+15. Most TV Shows have **1–2 seasons**, showing a trial-based content strategy.  
+16. Only a few shows grow into long-running multi-season series.  
+17. Some countries focus more on **Movies**, while others prefer **episodic TV Shows**.  
+18. Genre diversity is highest in the **US, India, and UK**.  
+19. Missing metadata highlights **real-world data quality challenges**.  
+20. Overall trends show Netflix follows a **data-driven experimentation approach**.
 
 ---
 
-## **6. Furnished vs Unfurnished Prices**
-
-| Property Status | Unfurnished | Furnished |
-| --------------- | ----------- | --------- |
-| Off-plan        | **4.04M**   | 3.65M     |
-| Ready           | 3.51M       | **4.09M** |
-
-📌 *Insight:*
-
-* Off-plan units cost more when unfurnished (construction premiums).
-* Ready units sell at higher prices when **furnished**.
+## 🧠 Interview-Ready Takeaways
+- Demonstrates **advanced SQL analytics** using real-world data  
+- Converts raw SQL output into **business insights**  
+- Shows understanding of **content strategy, growth, and audience targeting**  
+- Highlights experience handling **imperfect real-world datasets**  
 
 ---
 
-## **7. City-Level Comparison**
+## 📁 Repository Structure
 
-* **Dubai** leads with the highest prices and largest spread across low/mid/high categories.
-* **Abu Dhabi** shows steadier pricing.
-* **Sharjah & Ajman** offer affordable markets, with Sharjah showing an emerging luxury spike.
-* **Al Ain** remains mostly low-to-mid range.
-
-📌 *Insight:*
-Dubai is the UAE’s most premium and volatile real-estate market, while Sharjah and Ajman provide more stable affordability.
-
----
-
-# 📁 Files Included
-
-* `Bayut_Property_Sales_Intelligence.twb` – Tableau workbook
-* `SQL-file.ipynb/` – A python file which contains all SQL related tasks
-* `Datasets/` – bayut_selling_properties.csv and final_dataset.csv
-* `images/` – Dashboard screenshots
+* `Netflix Content Analysis using MySQL.ipynb` – Coding File
+* `netflix_titles.csv` – Dataset
 * `README.md` – (this file)
 
 ---
-bayut_selling_properties.csv
-# 🚀 How to Use This Project
 
-1. Download the `.twb` Tableau workbook.
-2. Open it in **Tableau Desktop** or **Tableau Public**.
-3. Explore dashboards, filters, and visuals to understand the market.
+## 🚀 How to Run the Project
+1. Clone the repository  
+2. Import the dataset into your system  
+3. Create a MySQL database named `netflix`  
+4. Update MySQL credentials in the notebook  
+5. Run notebook cells sequentially  
 
 ---
+
 
 # 👤 Created by
 
 ### **Alfiya Ansari**
 
+---
 
+⭐ If you find this project useful, feel free to star the repository!
