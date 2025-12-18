@@ -20,7 +20,6 @@ The analysis is driven by **MongoDB aggregation queries** implemented in `MongoD
 
 * `MongoDB_Query.js`– Coding file contains all the mongodb queries
 * `ETL.ipynb` – Python code file for dataset Extraction, Transformation, and Loading pipeline
-* `dataset.csv` – Dataset
 * `README.md` – (this file)
 
 ---
