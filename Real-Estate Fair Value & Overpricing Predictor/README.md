@@ -126,8 +126,7 @@ Predicted P10–P90 intervals capture the true price ~99% of the time.
 * Overpricing percentage
 * Human-readable recommendation
 
-![Final Prediction](assets/final_prediction.png)
-
+![Dataset Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/c9c3f2306d19f2379b131b4201e61fbf0198cff6/Real-Estate%20Fair%20Value%20%26%20Overpricing%20Predictor/visuals/Output.png)
 ---
 
 ## 🧾 Overpricing Logic
@@ -175,7 +174,28 @@ Overpricing (%) = (Listing Price − Fair Value) / Fair Value × 100
 
 
 ------------------------------------------------------------------------
+## 📷 Visualizations 
 
+### 🖼 Screenshot 1 -- Distribution of Property Listings Across German Federal States
+
+![Dataset Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/c9c3f2306d19f2379b131b4201e61fbf0198cff6/Real-Estate%20Fair%20Value%20%26%20Overpricing%20Predictor/visuals/Image-1.png)
+
+### 🖼 Screenshot 2 --Top 10 Districts in Germany by Number of Property Listings
+
+![Dataset Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/c9c3f2306d19f2379b131b4201e61fbf0198cff6/Real-Estate%20Fair%20Value%20%26%20Overpricing%20Predictor/visuals/Image-2.png)
+
+### 🖼 Screenshot 3 -- Distribution of Property Construction Year and Tredns
+![Dataset Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/c9c3f2306d19f2379b131b4201e61fbf0198cff6/Real-Estate%20Fair%20Value%20%26%20Overpricing%20Predictor/visuals/Image-3.png)
+
+### 🖼 Screenshot 4 -- Log-Transformed Purchase Prices by Property Condition (New vs. Existing Construction)
+
+![Dataset Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/c9c3f2306d19f2379b131b4201e61fbf0198cff6/Real-Estate%20Fair%20Value%20%26%20Overpricing%20Predictor/visuals/Image-4.png)
+
+### 🖼 Screenshot 5 -- Number of Properties by Condition and Construction Type (New vs. Existing)
+
+![Dataset Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/c9c3f2306d19f2379b131b4201e61fbf0198cff6/Real-Estate%20Fair%20Value%20%26%20Overpricing%20Predictor/visuals/Image-5.png)
+
+------------------------------------------------------------------------
 ## 🔮 Next Steps
 
 * SHAP-based explainability
