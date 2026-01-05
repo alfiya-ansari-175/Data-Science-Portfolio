@@ -166,7 +166,7 @@ Below are the full, deep-dive insights extracted from the analysis:
 
 ------------------------------------------------------------------------
 
-## 📷 Visualizations (Screenshots to Be Added)
+## 📷 Visualizations 
 
 ### 🖼 Screenshot 1 -- Daily Order With 7-Day Rolling Mean
 
