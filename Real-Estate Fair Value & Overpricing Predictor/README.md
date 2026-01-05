@@ -39,12 +39,6 @@ Predict fair value **and** quantify uncertainty to support buying, investing, an
 
 ---
 
-Great idea — adding **a few sharp EDA insights** will strengthen the signal without bloating the README.
-Below is an **expanded but still FAANG-style** version of the **📊 Key Insights from EDA** section.
-You can **replace that section directly** in your README.
-
----
-
 ## 📊 Key Insights from EDA
 
 * **Living area is the strongest price anchor**, but the relationship is **non-linear**
