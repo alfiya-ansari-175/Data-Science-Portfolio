@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real-Estate Fair Value & Overpricing Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <header class="header">
+        <h1>🏠 Real-Estate Fair Value & Overpricing Predictor</h1>
+        <p class="subtitle">
+            AI-powered property valuation with confidence intervals
+        </p>
+    </header>
+
+    <form method="POST">
+
+        <!-- LOCATION -->
+        <h2>Location</h2>
+
+        <label>Federal State</label>
+        <select name="federal_state" required>
+            <option value="">Select Federal State</option>
+            <option>Nordrhein_Westfalen</option>
+            <option>Niedersachsen</option>
+            <option>Bayern</option>
+            <option>Baden_Württemberg</option>
+            <option>Rheinland_Pfalz</option>
+            <option>Hessen</option>
+            <option>Schleswig_Holstein</option>
+            <option>Sachsen</option>
+            <option>Brandenburg</option>
+            <option>Mecklenburg_Vorpommern</option>
+            <option>Sachsen_Anhalt</option>
+            <option>Saarland</option>
+            <option>Berlin</option>
+            <option>Thüringen</option>
+            <option>Hamburg</option>
+            <option>Bremen</option>
+        </select>
+
+        <label>District</label>
+        <select name="district" required>
+            <option value="">Select District</option>
+            <option>Berlin</option>
+            <option>Hamburg</option>
+            <option>München</option>
+            <option>Köln</option>
+            <option>Frankfurt_am_Main</option>
+            <option>Stuttgart</option>
+            <option>Düsseldorf</option>
+            <option>Hannover</option>
+            <option>Leipzig</option>
+            <option>Dresden</option>
+            <option>Bremen</option>
+            <option>München_Kreis</option>
+            <option>Rhein_Sieg_Kreis</option>
+            <option>Rhein_Neckar_Kreis</option>
+            <option>Main_Kinzig_Kreis</option>
+            <option>Esslingen_Kreis</option>
+            <option>Karlsruhe_Kreis</option>
+            <option>Offenbach_Kreis</option>
+            <option>Emsland_Kreis</option>
+            <option>Wesel_Kreis</option>
+            <option>Steinfurt_Kreis</option>
+        </select>
+
+        <label>Municipality</label>
+        <input name="municipality" placeholder="Municipality" required>
+
+        <label>ZIP Code</label>
+        <input name="zip_code" type="number" required>
+
+        <!-- PROPERTY -->
+        <h2>Property</h2>
+
+        <label>Property Condition</label>
+        <select name="property_condition">
+            <option>no_information</option>
+            <option>well_kept</option>
+            <option>first_time_use</option>
+            <option>need_of_renovation</option>
+            <option>mint_condition</option>
+            <option>modernized</option>
+            <option>refurbished</option>
+            <option>fully_renovated</option>
+            <option>first_time_use_after_refurbishment</option>
+            <option>negotiable</option>
+            <option>ripe_for_demolition</option>
+        </select>
+
+        <label>Year Built</label>
+        <input name="year_built" type="number">
+
+        <label>New Construction</label>
+        <select name="is_new_construction">
+            <option>No</option>
+            <option>Yes</option>
+        </select>
+
+        <label>Living Area (sqm)</label>
+        <input name="living_area_sqm" type="number" step="0.1">
+
+        <label>Number of Rooms</label>
+        <input name="num_rooms" type="number" step="0.5">
+
+        <label>Has Cellar</label>
+        <select name="has_cellar">
+            <option>No</option>
+            <option>Yes</option>
+        </select>
+
+        <label>Barrier Free</label>
+        <select name="is_barrier_free">
+            <option>No</option>
+            <option>Yes</option>
+        </select>
+
+        <!-- HEATING -->
+        <h2>Heating</h2>
+
+        <label>Heating Type</label>
+        <select name="heating_type">
+            <option>central_heating</option>
+            <option>floor_heating</option>
+            <option>gas_heating</option>
+            <option>no_information</option>
+            <option>heat_pump</option>
+            <option>oil_heating</option>
+            <option>stove_heating</option>
+            <option>self_contained_central_heating</option>
+            <option>district_heating</option>
+            <option>electric_heating</option>
+            <option>night_storage_heater</option>
+            <option>combined_heat_and_power_plant</option>
+            <option>wood_pellet_heating</option>
+            <option>solar_heating</option>
+        </select>
+
+        <label>Firing Type</label>
+        <select name="firing_type">
+            <option>gas</option>
+            <option>oil</option>
+            <option>no_information</option>
+            <option>electricity</option>
+            <option>district_heating</option>
+            <option>pellet_heating</option>
+            <option>wood</option>
+            <option>solar_heating</option>
+            <option>heat_supply</option>
+            <option>bio_energy</option>
+            <option>coal</option>
+        </select>
+
+        <!-- MARKET -->
+        <h2>Market</h2>
+
+        <label>Price Trend Buy</label>
+        <input name="price_trend_buy" type="number" step="0.01">
+
+        <label>Internet Download (Mbps)</label>
+        <input name="internet_download_mbps" type="number">
+
+        <label>TV Offer</label>
+        <select name="has_tv_offer">
+            <option>No</option>
+            <option>Yes</option>
+        </select>
+
+        <label>Internet Available</label>
+        <select name="has_internet">
+            <option>No</option>
+            <option>Yes</option>
+        </select>
+
+        <label>Exclusive Listing</label>
+        <select name="exclusive_listing">
+            <option>No</option>
+            <option>Yes</option>
+        </select>
+
+        <h2>Optional</h2>
+
+        <label>Listing Price</label>
+        <input name="listing_price" type="number">
+
+        <button type="submit">Predict Price</button>
+    </form>
+
+    {% if result %}
+    <div class="result">
+        <h2>📊 Prediction Result</h2>
+
+        <p>Lower Confidence Interval:
+            <strong>€{{ result.lower_ci }}</strong>
+        </p>
+
+        <p class="fair">
+            Fair Market Value:
+            <strong>€{{ result.fair_value }}</strong>
+        </p>
+
+        <p>Upper Confidence Interval:
+            <strong>€{{ result.upper_ci }}</strong>
+        </p>
+
+        {% if overpricing is not none %}
+            <p class="overpricing">
+                Overpricing: {{ overpricing }}%
+            </p>
+        {% endif %}
+
+        {% if pricing_insight %}
+        <div class="pricing-message {{ pricing_insight.status }}">
+            {{ pricing_insight.message }}
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+
+</div>
+
+<footer class="footer">
+    © 2026 · Built by <strong>Alfiya Ansari</strong>
+</footer>
+
+</body>
+</html>
