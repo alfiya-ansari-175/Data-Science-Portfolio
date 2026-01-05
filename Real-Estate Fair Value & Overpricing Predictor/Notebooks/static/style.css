@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #333;
+}
+
+.container {
+    width: 760px;
+    max-width: 95%;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 35px 40px;
+    border-radius: 16px;
+    box-shadow: 0 24px 45px rgba(0, 0, 0, 0.28);
+}
+
+.header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+    color: #1f3c88;
+    letter-spacing: 0.4px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 15px;
+    color: #555;
+}
+
+h2 {
+    margin-top: 34px;
+    font-size: 20px;
+    color: #1f3c88;
+    padding-left: 12px;
+    border-left: 4px solid #1f3c88;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+input,
+select {
+    width: 100%;
+    margin-top: 6px;
+    padding: 12px 14px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    transition: all 0.2s ease;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #1f3c88;
+    box-shadow: 0 0 0 3px rgba(31, 60, 136, 0.15);
+}
+
+button {
+    margin-top: 36px;
+    width: 100%;
+    padding: 15px;
+    font-size: 17px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #1f3c88, #2b5876);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+button:hover {
+    opacity: 0.92;
+}
+.result {
+    margin-top: 40px;
+    padding: 25px;
+    background: #f4f7fb;
+    border-radius: 14px;
+    border: 1px solid #dde4ef;
+}
+
+.result h2 {
+    margin-top: 0;
+    border-left: none;
+    padding-left: 0;
+}
+
+.result p {
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+.fair {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2e7d32;
+}
+
+.overpricing {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #c62828;
+}
+
+.pricing-message {
+    margin-top: 18px;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.pricing-message.good {
+    background: #e8f5e9;
+    color: #2e7d32;
+    border-left: 5px solid #2e7d32;
+}
+
+.pricing-message.fair {
+    background: #fffde7;
+    color: #827717;
+    border-left: 5px solid #fbc02d;
+}
+
+.pricing-message.warning {
+    background: #fff3e0;
+    color: #ef6c00;
+    border-left: 5px solid #fb8c00;
+}
+
+.pricing-message.overpriced {
+    background: #fdecea;
+    color: #c62828;
+    border-left: 5px solid #c62828;
+}
+
+.footer {
+    margin: 30px 0 20px 0;
+    text-align: center;
+    font-size: 13px;
+    color: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 28px 22px;
+    }
+
+    .header h1 {
+        font-size: 26px;
+    }
+}
