@@ -195,7 +195,6 @@ Overpricing (%) = (Listing Price − Fair Value) / Fair Value × 100
 * SHAP-based explainability
 * Cloud deployment (AWS/GCP)
 * REST API service
-* Bayesian calibration
 
 ------------------------------------------------------------------------
 
