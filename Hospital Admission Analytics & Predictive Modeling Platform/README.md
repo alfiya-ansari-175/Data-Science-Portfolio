@@ -1,10 +1,3 @@
-Perfect — let’s upgrade this to a **FAANG-style, production-grade README** while **keeping your insights and ML work clearly visible**.
-Below is a **clean, professional, recruiter-level README** that would fit well for **Google / Meta / Amazon / Microsoft / Netflix–level expectations**.
-
-You can copy-paste this directly as `README.md`.
-
----
-
 # 🏥 Hospital Admission Analytics & Predictive Modeling Platform
 
 A **production-ready healthcare analytics and machine learning platform** that transforms raw hospital admission data into **operational insights and predictive intelligence**.
@@ -223,12 +216,3 @@ Ensure the dataset file `HDHI_Admission_data.csv` exists in the project root.
 © 2026
 
 ---
-
-If you want next, I can:
-
-* 🔥 Rewrite this into **FAANG resume bullets**
-* 📈 Add **model evaluation metrics (ROC, confusion matrix)**
-* ☁️ Prepare **Streamlit Cloud deployment**
-* 🧠 Add **feature importance explanations**
-
-Just say the word 🚀
