@@ -187,7 +187,17 @@ Validates feature relevance for predictive modeling.
 * Transparent feature usage
 * Designed for **education and operations**, not diagnosis
 
----
+------------------------------------------------------------------------
+
+## 📁 Project Structure
+
+    ├──`HDHI_Admission_data.csv`      # Source dataset
+    ├── work.ipynb                    # Jupyter notebook page where analysis and experiments are performed
+    ├── app.py                        # Main application script for running the project using streamlit
+    ├── README.md                     # Project documentation
+
+
+------------------------------------------------------------------------
 
 ## 🚀 Getting Started
 
@@ -197,16 +207,6 @@ streamlit run app.py
 ```
 
 Ensure the dataset file `HDHI_Admission_data.csv` exists in the project root.
-
----
-
-## 📌 Project Highlights (Resume-Ready)
-
-* Built an end-to-end healthcare analytics & ML platform using Python and Streamlit
-* Performed deep EDA on 15K+ hospital admission records
-* Engineered clinical and temporal features for predictive modeling
-* Deployed interpretable ML models for LOS, ICU, and emergency risk prediction
-* Designed interactive dashboards for operational decision support
 
 ---
 
