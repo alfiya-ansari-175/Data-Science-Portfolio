@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Workplace Safety Risk Intelligence Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <h1><b>Workplace Safety Risk Intelligence Platform</b></h1>
+    <p class="subtitle">
+        An AI-powered decision support system for predicting workplace accident severity
+        and evaluating safety risk using historical industrial data.
+    </p>
+</section>
+
+<!-- PROJECT DESCRIPTION -->
+<section class="description">
+    <p><i>
+        This platform leverages deep learning models trained on real industrial accident
+        data to estimate the expected severity of workplace accidents and the probability
+        of severe incidents. It enables organizations to assess current safety conditions
+        and understand how improvements in operational or safety-related factors can
+        reduce accident risk.
+        </i>
+    </p>
+</section>
+
+<!-- INPUT FORM -->
+<form method="POST">
+<section class="input-panel">
+    <h2>Configure Workplace Scenario</h2>
+    <p class="hint">Select workplace characteristics to assess accident risk.</p>
+
+    {% for col in features %}
+        <label>{{ col }}</label>
+        <select name="{{ col }}" required>
+            {% for val in encoders[col].classes_ %}
+                <option value="{{ val }}">{{ val }}</option>
+            {% endfor %}
+        </select>
+    {% endfor %}
+
+    <button type="submit">Run Risk Analysis</button>
+</section>
+</form>
+
+<!-- RESULTS -->
+{% if baseline %}
+<section class="results">
+    <div class="cards">
+
+        <div class="card">
+            <h3>Baseline Risk</h3>
+            <div class="score">{{ baseline.score }}</div>
+            <p class="label">{{ baseline.label }}</p>
+            <p class="desc">🟢 {{ baseline.explanation }}</p>
+            <p><b>Severe Probability:</b> {{ baseline.prob }}</p>
+        </div>
+
+        <div class="card">
+            <h3>What-If Risk</h3>
+            <div class="score">{{ whatif.score }}</div>
+            <p class="label">{{ whatif.label }}</p>
+            <p class="desc">🟢 {{ whatif.explanation }}</p>
+            <p><b>Severe Probability:</b> {{ whatif.prob }}</p>
+        </div>
+
+        <div class="card impact">
+            <h3>Risk Impact</h3>
+            <div class="score">{{ impact }}</div>
+            {% if impact < 0 %}
+                <p class="good">✅ Risk reduced under simulated conditions.</p>
+            {% elif impact > 0 %}
+                <p class="bad">⚠️ Risk increased under simulated conditions.</p>
+            {% else %}
+                <p>ℹ️ No significant change in risk.</p>
+            {% endif %}
+        </div>
+
+    </div>
+</section>
+{% endif %}
+
+</body>
+<footer class="footer">
+    <p>
+        © 2026 • Workplace Safety Risk Intelligence Platform<br>
+        Built by <strong>Alfiya Ansari</strong>
+    </p>
+</footer>
+
+</html>
