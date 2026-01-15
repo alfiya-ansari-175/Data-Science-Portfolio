@@ -127,13 +127,28 @@ project/
 
 ---
 
-## 🧪 Example Output
+## Example Input and Output
 
-- Baseline Risk: 0.87 (Low Risk)
-- What-If Risk: 0.79 (Low Risk)
-- Risk Impact: -0.08 (Risk reduced)
+This section demonstrates how users interact with the application and interpret the model’s predictions.
+
+### 🔹 Input: Workplace Scenario Configuration
+
+The input screen allows users to configure workplace conditions using a single, unified form.   Users select organizational, workforce, and risk-related factors to assess accident severity.
+
+![Input Screenshot](screenshots/input.png)
 
 ---
+
+### 🔹 Output: Risk Assessment Results
+
+After submitting the inputs, the system generates three interpretable outputs:
+
+- **Baseline Risk:** Predicted accident severity under current conditions  
+- **What-If Risk:** Predicted severity after simulated safety improvement  
+- **Risk Impact:** Difference between baseline and what-if scenarios  
+
+![Output Screenshot](screenshots/output.png)
+
 
 ## 🧩 Skills Demonstrated
 
@@ -156,11 +171,7 @@ project/
 
 ---
 
-## 🎤 Interview Summary
 
-Built an AI-powered workplace safety risk intelligence platform using deep learning and Flask to predict accident severity and simulate safety improvements.
-
----
 
 ## 📜 License
 
