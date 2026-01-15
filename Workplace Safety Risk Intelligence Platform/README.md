@@ -150,17 +150,6 @@ After submitting the inputs, the system generates three interpretable outputs:
 ![Output Screenshot](screenshots/output.png)
 
 
-## 🧩 Skills Demonstrated
-
-- Data preprocessing
-- Deep learning (ANN)
-- Multi-output regression
-- Model interpretability
-- What-if analysis
-- Flask deployment
-- UI/UX for ML applications
-
----
 
 ## 📌 Future Improvements
 
