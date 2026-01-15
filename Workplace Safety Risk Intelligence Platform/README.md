@@ -135,7 +135,7 @@ This section demonstrates how users interact with the application and interpret 
 
 The input screen allows users to configure workplace conditions using a single, unified form.   Users select organizational, workforce, and risk-related factors to assess accident severity.
 
-![Input Screenshot](screenshots/input.png)
+![Input Screenshot](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/f692ba6f96663c90cc38e94f7ddcde60c5bad325/Workplace%20Safety%20Risk%20Intelligence%20Platform/Visuals/Sample-Input.png)
 
 ---
 
@@ -147,7 +147,7 @@ After submitting the inputs, the system generates three interpretable outputs:
 - **What-If Risk:** Predicted severity after simulated safety improvement  
 - **Risk Impact:** Difference between baseline and what-if scenarios  
 
-![Output Screenshot](screenshots/output.png)
+![Output Screenshot](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/f692ba6f96663c90cc38e94f7ddcde60c5bad325/Workplace%20Safety%20Risk%20Intelligence%20Platform/Visuals/Sample-Output.png)
 
 
 
