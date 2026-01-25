@@ -227,9 +227,6 @@ http://localhost:8501
 ## 👩‍💻 Author
 
 **Alfiya Ansari**
-📧 *[alfiyaansari175@gmail.com]*
-
-> © 2025 StreamChurn AI — “Turning data into customer retention.”
 
 ---
 
