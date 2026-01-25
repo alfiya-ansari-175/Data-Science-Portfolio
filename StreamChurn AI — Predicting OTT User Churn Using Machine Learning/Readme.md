@@ -155,8 +155,6 @@ A **Streamlit app** that brings your model to life.
 
 Below are a few example visualizations from the project:
 
-| Insight Visuals                                                                                                                                                                                                                              |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
 | ![Insight 3](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/bc331a0ebd73bed7a34d4e306f30850bf6436725/StreamChurn%20AI%20%E2%80%94%20Predicting%20OTT%20User%20Churn%20Using%20Machine%20Learning/visuals/Insight-1.jpg)
 | ![Insight 4](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/bc331a0ebd73bed7a34d4e306f30850bf6436725/StreamChurn%20AI%20%E2%80%94%20Predicting%20OTT%20User%20Churn%20Using%20Machine%20Learning/visuals/Insight-2.png)
 | ![Insight 5](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/bc331a0ebd73bed7a34d4e306f30850bf6436725/StreamChurn%20AI%20%E2%80%94%20Predicting%20OTT%20User%20Churn%20Using%20Machine%20Learning/visuals/Insight-3.png)
