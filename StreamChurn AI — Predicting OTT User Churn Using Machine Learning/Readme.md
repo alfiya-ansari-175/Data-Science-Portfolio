@@ -157,11 +157,10 @@ Below are a few example visualizations from the project:
 
 | Insight Visuals                                                                                                                                                                                                                              | Description                 |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| ![Insight 3](https://github.com/alfiya-ansari-175/Data-Science/blob/6f88fda345ebedd45fe66633f0118f1359086af3/StreamChurn%20AI%20%E2%80%94%20Predicting%20OTT%20User%20Churn%20Using%20Machine%20Learning/Screenshots/Insight-3.png?raw=true) | Churn vs Retention analysis |
-| ![Insight 4](https://github.com/alfiya-ansari-175/Data-Science/blob/6f88fda345ebedd45fe66633f0118f1359086af3/StreamChurn%20AI%20%E2%80%94%20Predicting%20OTT%20User%20Churn%20Using%20Machine%20Learning/Screenshots/Insight-4.png?raw=true) | Watch time vs Churn trends  |
-| ![Insight 5](https://github.com/alfiya-ansari-175/Data-Science/blob/6f88fda345ebedd45fe66633f0118f1359086af3/StreamChurn%20AI%20%E2%80%94%20Predicting%20OTT%20User%20Churn%20Using%20Machine%20Learning/Screenshots/Insight-5.png?raw=true) | Feature correlation heatmap |
-| ![Insight 6](https://github.com/alfiya-ansari-175/Data-Science/blob/6f88fda345ebedd45fe66633f0118f1359086af3/StreamChurn%20AI%20%E2%80%94%20Predicting%20OTT%20User%20Churn%20Using%20Machine%20Learning/Screenshots/Insight-6.png?raw=true) | Model performance summary   |
-
+| ![Insight 3](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/bc331a0ebd73bed7a34d4e306f30850bf6436725/StreamChurn%20AI%20%E2%80%94%20Predicting%20OTT%20User%20Churn%20Using%20Machine%20Learning/visuals/Insight-1.jpg)
+| ![Insight 4](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/bc331a0ebd73bed7a34d4e306f30850bf6436725/StreamChurn%20AI%20%E2%80%94%20Predicting%20OTT%20User%20Churn%20Using%20Machine%20Learning/visuals/Insight-2.png)
+| ![Insight 5](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/bc331a0ebd73bed7a34d4e306f30850bf6436725/StreamChurn%20AI%20%E2%80%94%20Predicting%20OTT%20User%20Churn%20Using%20Machine%20Learning/visuals/Insight-3.png)
+| ![Insight 6](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/bc331a0ebd73bed7a34d4e306f30850bf6436725/StreamChurn%20AI%20%E2%80%94%20Predicting%20OTT%20User%20Churn%20Using%20Machine%20Learning/visuals/Insight-4.png)
 ---
 
 ## 🚀 How to Run the Project
