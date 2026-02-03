@@ -134,12 +134,10 @@ git clone https://github.com/alfiya-ansari-175/Data-Science-Portfolio.git
 
 If you would like to discuss this project or collaborate:
 
-📌 Author : Alfiya Ansari
-📌 LinkedIn: *[https://www.linkedin.com/in/alfiya-ansari175/]*
+* Author : Alfiya Ansari
+* LinkedIn: *[https://www.linkedin.com/in/alfiya-ansari175/]*
 
----
-
-# ⭐ If you found this project useful, please consider giving it a star!
+If you found this project useful, please consider giving it a star!
 
 
 
