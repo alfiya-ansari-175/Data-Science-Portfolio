@@ -42,18 +42,6 @@ Retail companies generate high volumes of sales and customer data. The objective
 
 ---
 
-## 📂 Dataset Description
-
-The dataset contains retail transaction records including:
-
-* Customer ID and Customer Details
-* Product Categories and Product Information
-* Order Date and Sales Timeline
-* Revenue and Profit Metrics
-* Market / Region Data
-* Order Quantity and Sales Performance
-
----
 
 ## 🔍 Project Workflow
 
@@ -93,20 +81,11 @@ Developed interactive dashboards to visualize:
 
 ## 📈 Key Insights Generated
 
-✔ Identified top-performing products driving maximum revenue
-✔ Discovered high-value customers contributing to overall sales
-✔ Detected seasonal trends affecting product demand
-✔ Highlighted regional performance differences
-✔ Identified opportunities for improving profit margins
-
----
-
-## 💡 Business Recommendations
-
-* Focus marketing campaigns on high-performing product categories
-* Develop customer retention strategies for top revenue customers
-* Optimize inventory planning based on seasonal sales patterns
-* Expand business operations in high-growth regions
+* Identified top-performing products driving maximum revenue
+* Discovered high-value customers contributing to overall sales
+* Detected seasonal trends affecting product demand
+* Highlighted regional performance differences
+* Identified opportunities for improving profit margins
 
 ---
 
@@ -119,8 +98,6 @@ The Tableau dashboard enables users to:
 * Analyze customer contribution to revenue
 * Track profit and sales growth trends
 
-*(Add Tableau Public dashboard link or screenshots here)*
-
 ---
 
 ## 📁 Repository Structure
@@ -128,10 +105,9 @@ The Tableau dashboard enables users to:
 ```
 Retail Business Sales Analysis
 │
-├── Dataset
-├── SQL Queries
-├── Tableau Dashboard
-└── Project Documentation
+├── Sales_Analytics_for_Retail_Business_SQL.ipynb
+├── SalesAnalysis.twb
+├── README.md
 ```
 
 ---
@@ -151,48 +127,6 @@ git clone https://github.com/alfiya-ansari-175/Data-Science-Portfolio.git
 4. Connect dataset to Tableau
 
 5. Open Tableau dashboard to explore insights
-
----
-
-## 🧠 Skills Demonstrated
-
-### Data Analysis Skills
-
-* Exploratory Data Analysis (EDA)
-* Data Cleaning & Data Transformation
-* Business KPI Development
-* Trend & Performance Analysis
-* Data Storytelling
-
-### Technical Skills
-
-* SQL Query Writing & Optimization
-* Relational Database Analysis
-* Tableau Dashboard Development
-* Data Visualization Best Practices
-
----
-
-## 📈 Business Value Delivered
-
-This project demonstrates the ability to:
-
-* Convert raw retail data into strategic insights
-* Identify revenue growth opportunities
-* Support data-driven business decisions
-* Build executive-level dashboards
-* Communicate analytical findings effectively
-
----
-
-## 🎯 Career Relevance
-
-This project showcases skills relevant for roles such as:
-
-* Data Analyst
-* Business Intelligence Analyst
-* Retail Data Analyst
-* Junior Data Scientist
 
 ---
 
