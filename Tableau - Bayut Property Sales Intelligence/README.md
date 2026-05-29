@@ -9,7 +9,7 @@ A complete **data-cleaning workflow** was performed using SQL & Python, followed
 
 ## 🖼️ Dashboard Preview
 
-![Dashboard Preview](https://github.com/alfiya-ansari-175/PySpark/blob/b30d9c5f69ea36e706f38f358aa96be951a40924/Img/DashboardView.png)
+![Dashboard Preview](https://github.com/alfiya-ansari-175/PySpark/blob/437c8890cbc18f4fbce1a5c0c8c626ed7978554f/Img/37f021ba-82fc-4965-b8df-53f5fe4efaa5.png)
 
 ---
 
