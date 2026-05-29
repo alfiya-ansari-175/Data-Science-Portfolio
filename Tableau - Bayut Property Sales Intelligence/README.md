@@ -9,7 +9,7 @@ A complete **data-cleaning workflow** was performed using SQL & Python, followed
 
 ## 🖼️ Dashboard Preview
 
-![Dashboard Preview](https://github.com/alfiya-ansari-175/PySpark/blob/b4d70d19ccbc42bcb0303e454894287037df4416/Img/e4a4b85c-984e-4a0f-ab92-3008c62e8804.png)
+![Dashboard Preview](https://github.com/alfiya-ansari-175/Data-Science-Portfolio/blob/b582996d5a23e00b6ad22b3a436aac499a4af3e8/Tableau%20-%20Bayut%20Property%20Sales%20Intelligence/Images/DashboardViewImage.png)
 ---
 
 ## 🧹 Data Cleaning (Python + SQL)
